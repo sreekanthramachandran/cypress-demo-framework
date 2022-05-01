@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    //"cy:run": "cypress run"
     "cypress:open": "cypress open",
     "cypress:runDefault": "cypress run --spec cypress/integration/pom/*.spec.js",
     "cypress:chrome": "cypress run --browser chrome --spec cypress/integration/pom/*.spec.js",
